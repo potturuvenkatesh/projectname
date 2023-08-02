@@ -1,0 +1,46 @@
+{% include 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<!-- page title -->
+<section class="page-title-alt bg-primary position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+         <u><b> <h1 class="text-white font-tertiary">ABOUT US</h1></b></u>
+        </div>
+      </div>
+    </div>
+    
+   
+  <!-- /page title -->
+  
+  <!-- about -->
+  <section class="section pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h3>
+            Hello,this is POTTURU VENKATESH generously welcoming you all to our "LAKSHMI STORES".
+            This store will provide you various groceries,vegetables,snacks,cool drinks,fruits,etc...available for home delivery for near by places from store.
+             We havebeen in this field for past 25 years and we always thank our customers for this affection and looking forward to keep it for more years. 
+             We will always sell the goods at right price and we are trying to give more facilities to increase customer satisfaction.
+             We always been in front in giving back and helping the people who were in needy through our donations..
+             We hope you will enjoy journey with our stores....This is a short intro about us...Once again thank you for visiting our website..
+          </h3>
+        </div>
+        <div class="col-md-4 text-center drag-lg-top">
+          <div class="shadow-down mb-4">
+            <img src="{% static 'templates/Imageapp/L.jpg' %}" alt="author" class="img-fluid w-100 rounded-lg border-thick border-white">
+          </div>
+          
+          <h4>LAKSHMI STORES</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+{% endblock %}
