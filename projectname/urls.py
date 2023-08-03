@@ -25,3 +25,6 @@ urlpatterns = [
     path('Dhanalaxshmi/', include('Dhanalaxshmi.urls')),
     path('Business', include('Business.urls')),
 ]
+
+if settings.DEBUG:  
+        urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
